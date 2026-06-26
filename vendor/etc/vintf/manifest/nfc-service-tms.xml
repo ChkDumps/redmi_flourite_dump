@@ -1,0 +1,15 @@
+<manifest version="1.0" type="device" target-level="8">
+    <!--<hal format="aidl">
+        <name>android.hardware.nfc</name>
+        <fqname>INfc/default</fqname>
+    </hal> -->
+    <hal format="aidl">
+        <name>vendor.tms.tmsnfc_aidl</name>
+        <version>1</version>
+        <interface>
+            <name>ITmsNfc</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</manifest>
+
