@@ -1,0 +1,13 @@
+{
+  "api" : "ocr",
+  "name" : "ocr",
+  "version" : 5,
+  "plugin" : {
+    "id" : "ocr",
+    "version" : 1,
+    "entry" : "com.xiaomi.taiyi.plugin.ocr.OcrPlugin"
+  },
+  "isLLM" : false,
+  "disabled" : false,
+  "type" : 0
+}

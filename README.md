@@ -1,0 +1,20 @@
+## missi-user 16 BP2A.250605.031.A3 16OS3.1.260420.161139429.QCPEGL.S release-keys
+- Manufacturer: xiaomi
+- Platform: volcano
+- Codename: flourite
+- Brand: Redmi
+- Flavor: missi-user
+- Release Version: 16
+- Kernel Version: 6.1.138
+- Id: BP2A.250605.031.A3
+- Incremental: 16OS3.1.260420.161139429.QCPEGL.S
+- Tags: release-keys
+- CPU Abilist: arm64-v8a
+- A/B Device: true
+- Treble Device: true
+- Locale: en-GB
+- Screen Density: undefined
+- Fingerprint: Redmi/flourite_eea/flourite:14/UKQ1.240624.001/OS3.0.305.0.WPREUXM:user/release-keys
+- OTA version: 
+- Branch: missi-user-16-BP2A.250605.031.A3-16OS3.1.260420.161139429.QCPEGL.S-release-keys
+- Repo: redmi_flourite_dump

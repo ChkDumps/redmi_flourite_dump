@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature>
+        <map name="cota_preinstall_apps_list">
+            <item name="com.dti.telefonica">0</item>
+        </map>
+        <string-array name="allow_install_third_apps">
+            <item>cn.wps.moffice_eng</item>
+            <item>com.facebook.katana</item>
+        </string-array>
+    </cust_feature>
+</cust_features>

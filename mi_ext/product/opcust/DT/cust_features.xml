@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature>
+        <string-array name="disallow_install_third_apps">
+            <item>com.opera.browser</item>
+            <item>com.microsoft.bing</item>
+        </string-array>
+        <string name="config_facebook_partnerid">dt:bdcc8a44-9f28-4421-9a68-f2cb6d394390</string>
+    </cust_feature>
+</cust_features>

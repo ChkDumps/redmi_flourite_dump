@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature>
+        <map name="cota_preinstall_apps_list">
+            <item name="com.dti.aone">0</item>
+        </map>
+        <string name="config_facebook_partnerid">telekomaustria:b00f58cb-80db-c165-096c-b6205d39a3c7</string>
+    </cust_feature>
+</cust_features>

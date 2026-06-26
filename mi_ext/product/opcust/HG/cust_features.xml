@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature>
+        <bool name="config_support_international_roaming_strategy">true</bool>
+        <bool name="config_show_3g_only">true</bool>
+        <bool name="disable_smsc_setting_update">true</bool>
+        <string name="config_default_browser_package">com.mi.globalbrowser</string>
+        <string name="config_facebook_partnerid">hutch:584309a8-263e-4398-9ba0-3a7f5731df19</string>
+        <map name="cota_preinstall_apps_list">
+            <item name="com.ironsource.appcloud.oobe.hutchison">0</item>
+            <item name="tv.chili.companion.android">2</item>
+            <item name="com.amazon.appmanager">2</item>
+        </map>
+        <string-array name="disallow_install_third_apps">
+            <item>com.amazon.avod.thirdpartyclient</item>
+            <item>com.amazon.appmanager</item>
+        </string-array>
+    </cust_feature>
+</cust_features>

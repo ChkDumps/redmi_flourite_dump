@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature>
+        <map name="cota_preinstall_apps_list">
+            <item name="com.altice.android.myapps">3</item>
+            <item name="com.sfr.android.sfrjeux">3</item>
+        </map>
+        <string name="config_facebook_partnerid">Null</string>
+        <string-array name="allow_install_third_apps">
+            <item>android</item>
+        </string-array>
+    </cust_feature>
+</cust_features>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature>
+        <map name="config_post_trigger_app_action">
+            <item name="com.altice.android.myapps">com.altice.android.myapps.ACTION_POST_TRIGGER</item>
+        </map>
+        <bool name="config_remove_call_barring">true</bool>
+        <string-array name="config_cust_disable_list">
+            <item>com.altice.android.myapps</item>
+            <item>com.sfr.android.sfrjeux</item>
+        </string-array>
+        <bool name="config_show_3g_only">true</bool>
+        <integer name="config_screen_off_timeout">30000</integer>
+        <bool name="config_open_accelerometer_rotation">true</bool>
+        <string-array name="config_provison_disabled_apps">
+            <item>com.android.mms</item>
+        </string-array>
+        <map name="cota_preinstall_apps_list">
+            <item name="com.altice.android.myapps">0</item>
+            <item name="com.sfr.android.sfrjeux">0</item>
+        </map>
+        <bool name="config_statusbar_hide_volte">true</bool>
+    </cust_feature>
+</cust_features>

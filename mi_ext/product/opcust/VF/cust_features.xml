@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature>
+        <bool name="config_cota_carrier_customize_for_call_feature">true</bool>
+        <bool name="unsupport_call_recording_gl">true</bool>
+        <bool name="support_convert_ussd_mode">true</bool>
+        <bool name="config_show_3g_only">true</bool>
+        <string name="config_default_browser_package">com.mi.globalbrowser</string>
+        <string-array name="config_provison_disabled_apps">
+            <item>com.android.mms</item>
+        </string-array>
+        <string name="config_facebook_partnerid">vodafone:467ff1b4-cd51-4a99-b4ba-d93fc1ba508b</string>
+        <string-array name="allow_install_third_apps">
+            <item>com.facebook.katana</item>
+        </string-array>
+        <map name="cota_preinstall_apps_list">
+            <item name="com.aura.oobe.vodafone">0</item>
+            <item name="com.instagram.android">1</item>
+        </map>
+    </cust_feature>
+</cust_features>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature>
+        <map name="config_preinstall_appsflyer">
+            <item name="com.zhiliaoapp.musically">orange_int</item>
+        </map>
+        <string name="config_netflix_channel">bb919990-39eb-11e9-a2ee-2169fcc54469</string>
+        <string-array name="allow_install_third_apps">
+            <item>com.amazon.mShop.android.shopping</item>
+            <item>com.facebook.katana</item>
+            <item>com.linkedin.android</item>
+            <item>com.netflix.mediaclient</item>
+            <item>com.zhiliaoapp.musically</item>
+            <item>cn.wps.moffice_eng</item>
+        </string-array>
+    </cust_feature>
+</cust_features>

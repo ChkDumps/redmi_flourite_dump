@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature>
+        <string name="config_facebook_partnerid">sfr:b6179fa5-3bb5-490b-99a3-3e3fa4934bcd</string>
+        <string-array name="allow_install_third_apps">
+            <item>com.facebook.katana</item>
+        </string-array>
+    </cust_feature>
+</cust_features>

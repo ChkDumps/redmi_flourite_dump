@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature>
+        <string-array name="allow_install_third_apps">
+            <item>com.amazon.mShop.android.shopping</item>
+            <item>com.facebook.katana</item>
+            <item>com.linkedin.android</item>
+            <item>cn.wps.moffice_eng</item>
+            <item>com.booking</item>
+        </string-array>
+        <string name="config_netflix_channel">9a04d930-33ce-11ea-b1a7-efe69f39d1d8</string>
+    </cust_feature>
+</cust_features>

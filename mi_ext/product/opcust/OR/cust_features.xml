@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature>
+        <bool name="config_vowifi_cc_card_style">true</bool>
+        <map name="config_post_trigger_app_action">
+            <item name="com.orange.update">com.orange.update.intent.action.ACTION_POST_TRIGGER</item>
+        </map>
+        <bool name="support_nsa_thermal_control">true</bool>
+        <string-array name="config_cust_disable_list">
+            <item>com.google.android.apps.messaging</item>
+            <item>com.google.android.apps.maps</item>
+            <item>com.google.android.apps.googleassistant</item>
+            <item>com.google.android.apps.walletnfcrel</item>
+            <item>com.google.android.apps.subscriptions.red</item>
+            <item>com.android.browser</item>
+            <item>com.mi.globalbrowser</item>
+            <item>com.miui.calculator</item>
+            <item>com.android.deskclock</item>
+            <item>com.miui.compass</item>
+            <item>com.mi.android.globalFileexplorer</item>
+            <item>com.miui.gallery</item>
+            <item>com.miui.videoplayer</item>
+            <item>com.miui.player</item>
+            <item>com.miui.notes</item>
+            <item>com.android.soundrecorder</item>
+            <item>com.xiaomi.scanner</item>
+            <item>com.miui.screenrecorder</item>
+            <item>com.xiaomi.midrop</item>
+            <item>com.miui.weather2</item>
+            <item>com.android.thememanager</item>
+            <item>com.miui.huanji</item>
+            <item>com.orange.aura.oobe</item>
+        </string-array>
+        <string name="config_default_browser_package">com.mi.globalbrowser</string>
+        <bool name="config_show_set_password_dialog">true</bool>
+        <string name="config_facebook_partnerid">orange:4dcd29e4-0163-4328-93d4-f69db24a2923</string>
+        <map name="cota_preinstall_apps_list">
+            <item name="com.orange.update">0</item>
+            <item name="com.orange.aura.oobe">0</item>
+            <item name="com.amazon.appmanager">2</item>
+        </map>
+        <string-array name="disallow_install_third_apps">
+            <item>com.amazon.appmanager</item>
+        </string-array>
+        <bool name="config_kept_notifications_on_keyguard">true</bool>
+        <bool name="config_play_incall_notification">true</bool>
+        <bool name="config_show_carrier_in_status_bar_header">true</bool>
+    </cust_feature>
+</cust_features>

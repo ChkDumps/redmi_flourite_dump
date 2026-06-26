@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature>
+        <map name="cota_preinstall_apps_list">
+            <item name="com.amazon.appmanager">2</item>
+            <item name="com.booking.aidprovider">2</item>
+        </map>
+        <string name="config_netflix_channel">af91147c-3d16-4a9a-a260-551f93d9c3ff</string>
+        <string name="config_facebook_partnerid">tim-italy:f6b4b437-f40e-cf6c-618a-51eba0198794</string>
+        <string-array name="disallow_install_third_apps">
+            <item>com.amazon.appmanager</item>
+        </string-array>
+    </cust_feature>
+</cust_features>

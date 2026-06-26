@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature mcc="204" mnc="04">
+        <bool name="config_show_3g_only">false</bool>
+        <integer name="config_operator_wifi_eap_method">5</integer>
+        <string name="config_customized_wifi_ssid">Vodafone NL Wifi</string>
+        <bool name="config_disabled_dialpad_tone">true</bool>
+    </cust_feature>
+    <cust_feature mcc="230" mnc="03">
+        <bool name="config_show_3g_only">false</bool>
+        <bool name="config_disabled_dialpad_tone">true</bool>
+    </cust_feature>
+    <cust_feature mcc="276" mnc="02">
+        <bool name="config_show_3g_only">false</bool>
+    </cust_feature>
+    <cust_feature mcc="214" mnc="01">
+        <string-array name="preferred_network_type_list">
+            <item>32,preferred_network_type_pref_entries_5g_preferred</item>
+            <item>20,preferred_network_type_pref_entries_4g_preferred</item>
+            <item>18,preferred_network_type_pref_entries_3g_preferred</item>
+        </string-array>
+        <bool name="config_show_3g_only">false</bool>
+        <bool name="config_prefer_2g_bool">false</bool>
+    </cust_feature>
+    <cust_feature mcc="268" mnc="01">
+        <string-array name="preferred_network_type_list">
+            <item>32,preferred_network_type_pref_entries_5g_preferred</item>
+            <item>20,preferred_network_type_pref_entries_4g_preferred</item>
+            <item>18,preferred_network_type_pref_entries_3g_preferred</item>
+        </string-array>
+        <bool name="config_show_3g_only">false</bool>
+        <bool name="config_prefer_2g_bool">false</bool>
+    </cust_feature>
+    <cust_feature mcc="262" mnc="09">
+        <bool name="config_show_3g_only">false</bool>
+    </cust_feature>
+    <cust_feature mcc="202" mnc="05">
+        <bool name="config_show_3g_only">false</bool>
+    </cust_feature>
+    <cust_feature mcc="226" mnc="01">
+        <string-array name="preferred_network_type_list">
+            <item>32,preferred_network_type_pref_entries_5g_preferred</item>
+            <item>20,preferred_network_type_pref_entries_4g_preferred</item>
+            <item>18,preferred_network_type_pref_entries_3g_preferred</item>
+            <item>1,preferred_network_type_pref_entries_only_2g</item>
+        </string-array>
+        <bool name="config_show_3g_only">false</bool>
+    </cust_feature>
+    <cust_feature mcc="001" mnc="01">
+        <bool name="config_show_3g_only">false</bool>
+    </cust_feature>
+    <cust_feature mcc="222" mnc="10">
+        <string-array name="preferred_network_type_list">
+            <item>32,preferred_network_type_pref_entries_5g_preferred</item>
+            <item>20,preferred_network_type_pref_entries_4g_preferred</item>
+            <item>18,preferred_network_type_pref_entries_3g_preferred</item>
+            <item>1,preferred_network_type_pref_entries_only_2g</item>
+        </string-array>
+        <bool name="config_show_3g_only">false</bool>
+    </cust_feature>
+    <cust_feature mcc="216" mnc="70">
+        <string-array name="preferred_network_type_list">
+            <item>32,preferred_network_type_pref_entries_5g_preferred</item>
+            <item>20,preferred_network_type_pref_entries_4g_preferred</item>
+            <item>18,preferred_network_type_pref_entries_3g_preferred</item>
+            <item>2,preferred_network_type_pref_entries_only_3g</item>
+            <item>1,preferred_network_type_pref_entries_only_2g</item>
+        </string-array>
+        <bool name="config_disabled_dialpad_tone">true</bool>
+    </cust_feature>
+    <cust_feature mcc="234" mnc="15">
+        <bool name="config_show_3g_only">false</bool>
+        <bool name="radio_off_before_change_fiveg_state">true</bool>
+        <integer name="config_operator_wifi_eap_method">5</integer>
+        <string name="config_customized_wifi_ssid">VodafoneWiFi</string>
+    </cust_feature>
+    <cust_feature mcc="272" mnc="01">
+        <bool name="config_show_3g_only">false</bool>
+        <bool name="config_disabled_dialpad_tone">true</bool>
+    </cust_feature>
+    <cust_feature mcc="262" mnc="02">
+        <bool name="config_show_3g_only">false</bool>
+        <bool name="config_disabled_dialpad_tone">true</bool>
+    </cust_feature>
+</cust_features>

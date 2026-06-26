@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature mcc="214" mnc="07">
+        <bool name="config_broadcast_icc_refresh">true</bool>
+        <bool name="config_reset_icc_record">true</bool>
+    </cust_feature>
+    <cust_feature mcc="214" mnc="05">
+        <bool name="config_broadcast_icc_refresh">true</bool>
+        <bool name="config_reset_icc_record">true</bool>
+    </cust_feature>
+</cust_features>

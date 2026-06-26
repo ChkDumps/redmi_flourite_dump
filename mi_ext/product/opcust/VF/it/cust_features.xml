@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature>
+        <string name="config_facebook_partnerid">xiaomi:d3120e97-318f-0810-4666-a1b0610476f4</string>
+        <integer name="config_operator_cust_wifi">3</integer>
+    </cust_feature>
+</cust_features>

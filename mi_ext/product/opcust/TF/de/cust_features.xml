@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature>
+        <string-array name="disallow_install_third_apps">
+            <item>com.alibaba.aliexpresshd</item>
+            <item>com.zhiliaoapp.musically</item>
+            <item>com.amazon.appmanager</item>
+            <item>com.ebay.carrier</item>
+            <item>com.amazon.mShop.android.shopping</item>
+        </string-array>
+        <map name="cota_preinstall_apps_list">
+            <item name="com.dti.telefonica">0</item>
+            <item name="com.amazon.appmanager">2</item>
+            <item name="com.ebay.carrier">2</item>
+        </map>
+    </cust_feature>
+</cust_features>

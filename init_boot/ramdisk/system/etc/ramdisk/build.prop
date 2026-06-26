@@ -1,0 +1,23 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.bootimage.brand=Redmi
+ro.product.bootimage.device=flourite
+ro.product.bootimage.manufacturer=Xiaomi
+ro.product.bootimage.model=2510ERA8BG
+ro.product.bootimage.name=flourite_eea
+ro.product.bootimage.cert=2510ERA8BG
+ro.product.bootimage.marketname=REDMI Note 15 Pro+ 5G
+ro.bootimage.build.date=Mon Apr 20 08:36:37 UTC 2026
+ro.bootimage.build.date.utc=1776674197
+ro.bootimage.build.fingerprint=Redmi/flourite_eea/flourite:14/UKQ1.240624.001/OS3.0.305.0.WPREUXM:user/release-keys
+ro.bootimage.build.id=UKQ1.240624.001
+ro.bootimage.build.tags=release-keys
+ro.bootimage.build.type=user
+ro.bootimage.build.version.incremental=OS3.0.305.0.WPREUXM
+ro.bootimage.build.version.release=14
+ro.bootimage.build.version.release_or_codename=14
+ro.bootimage.build.version.sdk=34
+# end of file
+

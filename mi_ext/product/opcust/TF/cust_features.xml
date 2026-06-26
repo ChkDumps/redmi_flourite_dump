@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature>
+        <bool name="config_vowifi_cc_card_style">true</bool>
+        <bool name="support_cust_mms_user_agent">true</bool>
+        <map name="cota_preinstall_apps_list">
+            <item name="com.dti.telefonica">3</item>
+        </map>
+        <string name="config_facebook_partnerid">telefonica:63839462-3a60-4343-bade-8d7c65ccfa45</string>
+    </cust_feature>
+</cust_features>
