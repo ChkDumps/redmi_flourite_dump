@@ -1,0 +1,43 @@
+{
+    "configs": [
+        {
+            "name": "videocall_list",
+            "config": [
+                "default"
+            ]
+        },
+        {
+            "name": "highresolutionblob_list",
+            "config": [
+                "com.tencent.ttpic.module.camera.CameraActivity",
+                "com.linecorp.b612.android.activity.ActivityCamera",
+                "com.wudaokou.hippo.media.camera.CameraActivity",
+                "com.lemon.faceu.business.mainpage.MainActivity",
+                "com.mt.mtxx.camera.view.CameraActivity",
+                "com.light.beauty.publisher.PublisherActivity",
+                "com.taobao.taopai.business.record.fragment.SocialRecordVideoActivity_Module_FullScreen",
+                "com.alipay.mobile.beehive.capture.activity.CaptureActivity",
+                "com.taobao.android.litecreator.modules.record.LCRecordActivity",
+                "com.jd.lib.unification.video.recorder.VideoRecorderActivity",
+                "com.baidu.homework.common.camera.NewCameraManyQuestionsActivity",
+                "com.jd.lib.scan.lib.zxing.client.android.CaptureActivity",
+                "com.whatsapp.camera.CameraActivity",
+                "com.whatsapp.camera.ui.CameraActivity",
+                "com.instagram.mainactivity.MainActivity",
+                "com.snap.mushroom.MainActivity",
+                "com.meitu.myxj.selfie.merge.activity.SelfieCameraActivity",
+                "com.instagram.modal.TransparentModalActivity",
+                "org.telegram.ui.LaunchActivity",
+                "com.weico.international.camera.CameraSendActivity",
+                "com.whatsapp.status.composer.ConsolidatedStatusComposerActivity",
+                "com.instagram.mainactivity.InstagramMainActivity",
+                "instagram.features.creation.activity.MediaCaptureActivity",
+                "com.yandex.browser.YandexBrowserMainActivity",
+                "com.facebook.messaging.montage.composer.MontageComposerActivity",
+                "com.facebook.inspiration.activity.InspirationCameraActivity",
+                "com.facebook.inspiration.composer.activity.InspirationComposerActivity",
+                "com.twitter.camera.controller.root.CameraActivity"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,174 @@
+#playback_spk
+#playback_spk_hp
+#enable_spk
+enable
+TFA Profile:stereo
+tfa98xx_spksw_gpio_switch:0
+aw_dev_0_prof:Music
+aw_dev_1_prof:Music
+aw_dev_1_switch:Enable
+aw_dev_0_switch:Enable
+aw882xx_spk_sw_gpio_switch:0
+
+#disable_spk
+disable
+TFA Profile:Powerdown
+tfa98xx_spksw_gpio_switch:0
+aw_dev_0_prof:Receiver
+aw_dev_0_switch:Disable
+aw_dev_1_switch:Disable
+aw882xx_spk_sw_gpio_switch:1
+
+#playback_top-spk
+#playback_top-spk_hp
+#enable_top-spk
+enable
+TFA Profile:left
+tfa98xx_spksw_gpio_switch:0
+aw_dev_0_prof:Music
+aw_dev_0_switch:Enable
+aw882xx_spk_sw_gpio_switch:0
+
+#disable_top-spk
+disable
+TFA Profile:Powerdown
+tfa98xx_spksw_gpio_switch:0
+aw_dev_0_prof:Receiver
+aw_dev_0_switch:Disable
+aw882xx_spk_sw_gpio_switch:1
+
+#playback_bot-spk
+#playback_bot-spk_hp
+#enable_bot-spk
+enable
+TFA Profile:right
+tfa98xx_spksw_gpio_switch:0
+aw_dev_1_prof:Music
+aw_dev_1_switch:Enable
+
+#disable_bot-spk
+disable
+TFA Profile:Powerdown
+tfa98xx_spksw_gpio_switch:0
+aw_dev_1_switch:Disable
+
+#playback_rcv
+#playback_rcv_hp
+#enable_receiver
+enable
+TFA Profile:handset
+tfa98xx_spksw_gpio_switch:1
+aw_dev_0_prof:Receiver
+aw_dev_0_switch:Enable
+aw882xx_spk_sw_gpio_switch:1
+
+#disable_receiver
+disable
+TFA Profile:Powerdown
+tfa98xx_spksw_gpio_switch:0
+aw_dev_0_switch:Disable
+
+#playback_us
+enable
+TFA Profile:handset
+tfa98xx_spksw_gpio_switch:1
+aw_dev_0_prof:Receiver
+aw_dev_0_switch:Enable
+aw882xx_spk_sw_gpio_switch:1
+
+disable
+TFA Profile:Powerdown
+tfa98xx_spksw_gpio_switch:0
+aw_dev_0_switch:Disable
+
+#capture_us
+enable
+TX_AIF2_CAP Mixer DEC5:1
+TX DMIC MUX5:DMIC0
+
+disable
+TX_AIF2_CAP Mixer DEC5:0
+TX DMIC MUX5:ZERO
+
+#capture_main-mic
+#enable_main-mic
+enable
+TX_AIF1_CAP Mixer DEC2:1
+TX DMIC MUX2:DMIC2
+TX_DEC2 Volume:88
+
+#disable_main-mic
+disable
+TX_AIF1_CAP Mixer DEC2:0
+TX DMIC MUX2:ZERO
+TX_DEC2 Volume:88
+
+#capture_top-mic
+#enable_top-mic
+enable
+TX_AIF1_CAP Mixer DEC2:1
+TX DMIC MUX2:DMIC0
+TX_DEC2 Volume:88
+
+#disable_top-mic
+disable
+TX_AIF1_CAP Mixer DEC2:0
+TX DMIC MUX2:ZERO
+TX_DEC2 Volume:88
+
+#teardown_loopback
+enable
+TX_AIF1_CAP Mixer DEC0:0
+TX_AIF1_CAP Mixer DEC1:0
+TX_AIF1_CAP Mixer DEC2:0
+TX_AIF1_CAP Mixer DEC3:0
+TX_AIF1_CAP Mixer DEC5:0
+TX_AIF2_CAP Mixer DEC0:0
+TX_AIF2_CAP Mixer DEC1:0
+TX_AIF2_CAP Mixer DEC2:0
+TX_AIF2_CAP Mixer DEC3:0
+TX DMIC MUX0:ZERO
+TX DMIC MUX1:ZERO
+TX DMIC MUX2:ZERO
+TX DMIC MUX3:ZERO
+TX DMIC MUX4:ZERO
+TX DEC0 MUX:MSM_DMIC
+TX DEC1 MUX:MSM_DMIC
+TX DEC2 MUX:MSM_DMIC
+TX DEC3 MUX:MSM_DMIC
+TX DEC4 MUX:MSM_DMIC
+TX DEC5 MUX:MSM_DMIC
+TX_DEC0 Volume:88
+TFA Profile:Powerdown
+tfa98xx_spksw_gpio_switch:0
+aw_dev_0_prof:Receiver
+aw_dev_1_prof:Music
+aw_dev_0_switch:Disable
+aw_dev_1_switch:Disable
+aw882xx_spk_sw_gpio_switch:1
+disable
+
+
+#enable_ultrasound_mic
+enable
+TX_AIF2_CAP Mixer DEC5:1
+TX DMIC MUX5:DMIC0
+
+#disable_ultrasound_mic
+disable
+TX_AIF2_CAP Mixer DEC5:0
+TX DMIC MUX5:ZERO
+
+#enable_ultrasound
+enable
+TFA Profile:handset
+tfa98xx_spksw_gpio_switch:1
+aw_dev_0_prof:Receiver
+aw_dev_0_switch:Enable
+aw882xx_spk_sw_gpio_switch:1
+
+#disable_ultrasound
+disable
+TFA Profile:Powerdown
+tfa98xx_spksw_gpio_switch:0
+aw_dev_0_switch:Disable

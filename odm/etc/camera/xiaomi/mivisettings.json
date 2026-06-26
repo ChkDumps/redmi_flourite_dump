@@ -1,0 +1,16 @@
+{
+    "offlinedebugmask" : 1,
+    "Soc" : "QCOM",
+    "SupportBinaryLog": true,
+    "OpenLIFO" : 1,
+    "WatermarkDown": true,
+    "SrNodeHaveTwoOutPort" : false,
+    "NightBokehConcurrencyProcess" : false,
+    "JsonFileRemap":{
+        "prop": "ro.boot.camera.config",
+        "prop_brand": "ro.product.odm.brand",
+        "map": [["0",""],
+                ["1","_ext"],
+                ["2","_poco"]]
+    }
+}

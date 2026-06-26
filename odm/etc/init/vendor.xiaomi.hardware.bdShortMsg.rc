@@ -1,0 +1,34 @@
+on boot
+    mkdir /data/vendor/gnss_log 0775 system system
+    mkdir /data/vendor/gnss_log/log 0775 system system
+    mkdir /data/vendor/hdbd_agps 0775 system system
+    mkdir /data/vendor/gnss 0775 system system
+    chmod 0666 /sys/class/huada_gnss/hdbds_boot
+    chmod 0666 /sys/class/huada_gnss/hdbds_rn_vdd
+    chmod 0666 /sys/class/huada_gnss/hdbds_prrstx
+    chmod 0666 /sys/class/huada_gnss/hdbds_l1
+    chmod 0666 /sys/class/huada_gnss/hdbds_l5
+    chmod 0666 /sys/class/huada_gnss/hdsms_rd_int
+    chmod 0666 /sys/class/huada_gnss/hdsms_rd_boot
+    chmod 0666 /sys/class/huada_gnss/hdsms_rd_prrstx
+    chmod 0666 /sys/class/huada_gnss/hdsms_tcxo
+    chmod 0666 /sys/class/huada_gnss/hdsms_vdd_ldo
+    chmod 0666 /dev/ttyHS2
+    chown system system /dev/ttyHS2
+    chmod 0666 /dev/ttyHS3
+    chown system system /dev/ttyHS3
+    mkdir /mnt/vendor/persist/hdbd 0775 system system
+    
+service vendor.xiaomi.hardware.bdShortMsg-service /odm/bin/hw/vendor.xiaomi.hardware.bdShortMsg-service
+        interface aidl vendor.xiaomi.hardware.bdShortMsg.IHdbdHd7010ShortMsg/default
+        class hal
+        user system
+        group system
+        disabled
+        oneshot
+        
+on property:sys.bdShortMsg.control=1
+    start vendor.xiaomi.hardware.bdShortMsg-service
+
+on property:sys.bdShortMsg.control=0
+    stop vendor.xiaomi.hardware.bdShortMsg-service

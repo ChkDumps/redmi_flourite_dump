@@ -1,0 +1,9 @@
+# add ro.bdsms attribute
+ro.bdsms=true
+# add ro.bdlocation attribute for Beidou Location
+ro.bdlocation=true
+
+ro.product.odm.model=25104RADAC
+ro.product.odm.cert=25104RADAC
+ro.product.model_for_attestation=25104RADAC
+ro.product.odm.marketname=REDMI Note 15 Pro+ Edition

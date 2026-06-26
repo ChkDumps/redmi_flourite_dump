@@ -1,0 +1,64 @@
+# MIUI ADD:GPS_SingleBeidou
+service vendor.gnss-aidl /vendor/odm/bin/hw/android.hardware.gnss-service.hdbdAidl
+    class hal
+    user system
+    group system gps radio
+    disabled
+    seclabel u:r:vendor_hal_gnss_ally:s0  # 显式指定域
+    on boot
+        setprop vendor.bds.tcxoon 0
+
+    on property:persist.sys.gnss.mode=qti && property:vendor.bds.tcxoon=1
+        stop vendor.gnss-aidl
+        start gnss_service
+        write /sys/class/huada_gnss/hdbds_rn_vdd 0
+        setprop persist.vendor.gnss.mode qti
+
+    on property:persist.sys.gnss.mode=qti && property:vendor.bds.tcxoon=0
+        stop vendor.gnss-aidl
+        start gnss_service
+        write /sys/class/huada_gnss/hdsms_tcxo 0
+        write /sys/class/huada_gnss/hdbds_rn_vdd 0
+        setprop persist.vendor.gnss.mode qti
+
+    on property:persist.sys.gnss.mode=hdbd
+        stop gnss_service
+        start vendor.gnss-aidl
+        setprop persist.vendor.gnss.mode hdbd
+
+    on property:persist.sys.gnss.mode.switch=0x01
+        setprop vendor.gnss.mode.switch 0x01
+
+    on post-fs-data
+    mkdir /data/vendor/gnss_log 0770 system system
+    mkdir /data/vendor/hdbd_agps 0770 system system
+    mkdir /data/vendor/hd_imu 0770 system system
+    mkdir /data/vendor/hd_imu_gnss 0770 system system
+
+    chmod 0660 /dev/ttyHS4
+    chown root system /dev/ttyHS4
+
+    chmod 0660 /dev/ttyHS5
+    chown root system /dev/ttyHS5
+
+    chmod 0660 /sys/class/huada_gnss/hdbds_boot
+    chown root system /sys/class/huada_gnss/hdbds_boot
+    chmod 0660 /sys/class/huada_gnss/hdbds_rn_vdd
+    chown root system /sys/class/huada_gnss/hdbds_rn_vdd
+    chmod 0660 /sys/class/huada_gnss/hdbds_prrstx
+    chown root system /sys/class/huada_gnss/hdbds_prrstx
+    chmod 0660 /sys/class/huada_gnss/hdbds_l1
+    chown root system /sys/class/huada_gnss/hdbds_l1
+    chmod 0660 /sys/class/huada_gnss/hdbds_l5
+    chown root system /sys/class/huada_gnss/hdbds_l5
+    chmod 0660 /sys/class/huada_gnss/hdsms_rd_int
+    chown root system /sys/class/huada_gnss/hdsms_rd_int
+    chmod 0660 /sys/class/huada_gnss/hdsms_rd_boot
+    chown root system /sys/class/huada_gnss/hdsms_rd_boot
+    chmod 0660 /sys/class/huada_gnss/hdsms_rd_prrstx
+    chown root system /sys/class/huada_gnss/hdsms_rd_prrstx
+    chmod 0660 /sys/class/huada_gnss/hdsms_tcxo
+    chown root system /sys/class/huada_gnss/hdsms_tcxo
+    chmod 0660 /sys/class/huada_gnss/hdsms_vdd_ldo
+    chown root system /sys/class/huada_gnss/hdsms_vdd_ldo
+# END GPS_SingleBeidou

@@ -1,0 +1,4 @@
+# add support esim attribute
+ro.vendor.miui.support_esim=true
+# only customized property
+ro.vendor.audio.clean_speaker=true

@@ -1,0 +1,11 @@
+{
+    "version": "1.0",
+    "Proc_Inhibit": {
+        "cpus_configs": {
+            "limit-level0": "0-1",
+            "limit-level1": "0-2",
+            "limit-level2": "0-3",
+            "limit-level3": "0-3"
+        }
+    }
+}

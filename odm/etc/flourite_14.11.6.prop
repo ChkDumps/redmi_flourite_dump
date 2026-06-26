@@ -1,0 +1,8 @@
+# add ro.bdsms attribute
+ro.bdsms=true
+# add support esim attribute
+ro.vendor.miui.support_esim=true
+
+ro.product.odm.model=2510ERA8BT
+ro.product.odm.cert=2510ERA8BT
+ro.product.odm.marketname=REDMI Note 15 Pro+ 5G

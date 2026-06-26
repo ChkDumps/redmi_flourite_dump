@@ -1,0 +1,169 @@
+{
+    "SENSORNAME_ROLEID_MAP":[
+        {
+            "sensorName": "flourite_ofilm_ovx8000_wide_cn_i",
+            "roleID": 0
+        },
+        {
+            "sensorName": "flourite_ofilm_ovx8000_gt24p128f_wide_cn_i_eeprom",
+            "roleID": 0
+        },
+        {
+            "sensorName": "flourite_ofilm_ovx8000_gt9764v_wide_cn_i_actuator",
+            "roleID": 0
+        },
+        {
+            "sensorName": "flourite_ofilm_ovx8000_gt9786v_wide_i_ois",
+            "roleID": 0
+        },
+        {
+            "sensorName": "flourite_sunny_ovx8000_wide_cn_ii",
+            "roleID": 0
+        },
+        {
+            "sensorName": "flourite_sunny_ovx8000_gt24p128f_wide_cn_ii_eeprom",
+            "roleID": 0
+        },
+        {
+            "sensorName": "flourite_sunny_ovx8000_aw86016csr_wide_cn_ii_actuator",
+            "roleID": 0
+        },
+        {
+            "sensorName": "flourite_sunny_ovx8000_pd9701a_wide_ii_ois",
+            "roleID": 0
+        },
+        {
+            "sensorName": "flourite_ofilm_ovx8000_wide_gl_i",
+            "roleID": 0
+        },
+        {
+            "sensorName": "flourite_ofilm_ovx8000_gt24p128f_wide_gl_i_eeprom",
+            "roleID": 0
+        },
+        {
+            "sensorName": "flourite_ofilm_ovx8000_gt9764v_wide_gl_i_actuator",
+            "roleID": 0
+        },
+        {
+            "sensorName": "flourite_sunny_ovx8000_wide_gl_ii",
+            "roleID": 0
+        },
+        {
+            "sensorName": "flourite_sunny_ovx8000_gt24p128f_wide_gl_ii_eeprom",
+            "roleID": 0
+        },
+        {
+            "sensorName": "flourite_sunny_ovx8000_aw86016csr_wide_gl_ii_actuator",
+            "roleID": 0
+        },
+        {
+            "sensorName": "flourite_ofilm_s5khpe_wide_gl_i",
+            "roleID": 0
+        },
+        {
+            "sensorName": "flourite_ofilm_s5khpe_p24c256f_wide_gl_i_eeprom",
+            "roleID": 0
+        },
+        {
+            "sensorName": "flourite_ofilm_s5khpe_pd9302ab_wide_gl_i_actuator",
+            "roleID": 0
+        },
+        {
+            "sensorName": "flourite_ofilm_s5khpe_pd9701a_wide_gl_i_ois",
+            "roleID": 0
+        },
+        {
+            "sensorName": "flourite_semco_s5khpe_wide_gl_ii",
+            "roleID": 0
+        },
+        {
+            "sensorName": "flourite_semco_s5khpe_p24c256f_wide_gl_ii_eeprom",
+            "roleID": 0
+        },
+        {
+            "sensorName": "flourite_semco_s5khpe_gt9764ber_wide_gl_ii_actuator",
+            "roleID": 0
+        },
+        {
+            "sensorName": "flourite_semco_s5khpe_gt9786v_wide_gl_ii_ois",
+            "roleID": 0
+        },
+        {
+            "sensorName": "flourite_ofilm_ov32d40_front_i",
+            "roleID":1
+        },
+        {
+            "sensorName": "flourite_ofilm_ov32d40_p24c64f_front_i_eeprom",
+            "roleID":1
+        },
+        {
+            "sensorName": "flourite_aac_ov32d40_front_ii",
+            "roleID":1
+        },
+        {
+            "sensorName": "flourite_aac_ov32d40_gt24p64e_front_ii_eeprom",
+            "roleID":1
+        },
+        {
+            "sensorName": "flourite_ofilm_ov08f10_ultra_cn_i",
+            "roleID": 21
+        },
+        {
+            "sensorName": "flourite_ofilm_ov08f10_ultra_cn_i_eeprom",
+            "roleID": 21
+        },
+        {
+            "sensorName": "flourite_aac_ov08f10_ultra_cn_ii",
+            "roleID": 21
+        },
+        {
+            "sensorName": "flourite_aac_ov08f10_ultra_cn_ii_eeprom",
+            "roleID": 21
+        },
+        {
+            "sensorName": "flourite_aac_ov08f10_ultra_gl_i",
+            "roleID": 21
+        },
+        {
+            "sensorName": "flourite_aac_ov08f10_ultra_gl_i_eeprom",
+            "roleID": 21
+        },
+        {
+            "sensorName": "flourite_sunny_ov08f10_ultra_gl_ii",
+            "roleID": 21
+        },
+        {
+            "sensorName": "flourite_sunny_ov08f10_ultra_gl_ii_eeprom",
+            "roleID": 21
+        },
+        {
+            "sensorName": "flourite_ofilm_ov50m40_tele_cn_i",
+            "roleID": 20
+        },
+        {
+            "sensorName": "flourite_ofilm_ov50m40_gt24p128f_tele_cn_i_eeprom",
+            "roleID": 20
+        },
+        {
+            "sensorName": "flourite_ofilm_ov50m40_gt9764v_tele_cn_i_actuator",
+            "roleID": 20
+        },
+        {
+            "sensorName": "flourite_aac_ov50m40_tele_cn_ii",
+            "roleID": 20
+        },
+        {
+            "sensorName": "flourite_aac_ov50m40_p24c128f_tele_cn_ii_eeprom",
+            "roleID": 20
+        },
+        {
+            "sensorName": "flourite_aac_ov50m40_pd9302ab_tele_cn_ii_actuator",
+            "roleID": 20
+        }
+    ],
+
+    "TOMBSTONE_FUNCTION":{
+        "isEnable": true,
+        "fileNumber": 20
+    }
+}
