@@ -1,0 +1,12 @@
+{
+    "cpufreq": {
+        "little_core_value": [1804, 1497, 1113],
+        "big_core_value": [2400, 1824, 1401],
+        "prime_core_value": [2707, 1900, 1459]
+    },
+    "gpufreq": [0, 2, 4],
+    "ddrfreq": {
+        "values": [2092000, 1708000, 1555000],
+        "is_LLCC_DDR_BW_V2": true
+    }
+}
